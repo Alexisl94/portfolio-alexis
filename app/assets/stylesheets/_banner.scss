@@ -52,7 +52,7 @@ display: flex;
   // border: 1px solid rgb(255, 0, 0);
   height: 300px;
   width: 300px;
-  margin-left: 150px;
+  margin-left: 0px;
   margin-top: 80px;
   // // justify-self: start; /* Alignez la photo de profil à droite de sa colonne */
   // margin: auto;
@@ -87,4 +87,20 @@ display: flex;
   // margin-top: 10px;
   // margin-left: 200px;
   height: 40px;
+}
+
+.resume {
+  height: 200px;
+  width: 80%;
+  margin: auto;
+  text-align: justify; /* Justifie le texte */
+  line-height: 1.2;
+}
+
+.resume p {
+  text-decoration: none;
+  font-family: 'Kanit', sans-serif;
+  font-style: 400;
+  font-size: 14px; /* Réduire la taille de la police */
+  color: rgb(66, 66, 66);
 }

@@ -2,9 +2,56 @@
   width: 30px;
 }
 
-.presence-part {
+.presence-part a {
   text-align: center;
   text-decoration: none;
-  color: black;
-  margin: auto;
+  font-family: 'Kanit', sans-serif;
+  font-size: 14px; /* Réduire la taille de la police */
+  color: rgb(114, 114, 114);
+}
+
+.presence-part p {
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Kanit', sans-serif;
+  font-size: 12px; /* Réduire la taille de la police */
+  color: rgb(114, 114, 114);
+  margin-top: 5px; /* Réduire l'espacement en haut */
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.presence-part {
+  margin-left: 300px;
+  margin-right: 300px;
+  column-count: 4; /* Afficher en 4 colonnes */
+}
+
+.presence-part .item {
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Kanit', sans-serif;
+  font-size: 12px; /* Réduire la taille de la police */
+  color: rgb(114, 114, 114);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px; /* Réduire la largeur */
+  height: 120px; /* Réduire la hauteur */
+  margin-bottom: 20px;
+  border: rgba(189, 189, 189, 0.678) 1px solid;
+  border-radius: 2px;
+  box-shadow: 1px 2px 5px 2px rgba(201, 201, 201, 0.747);
+}
+
+.presence-part .item img {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px; /* Ajuster la marge en haut */
+}
+
+.presence-part .item p {
+  margin-top: 10px; /* Réduire l'espacement en haut */
+  margin-left: 10px;
+  margin-right: 10px;
 }
