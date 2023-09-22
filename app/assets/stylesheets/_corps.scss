@@ -106,7 +106,7 @@ ul {
   &-label {
     display: flex;
     justify-content: space-between;
-    padding: 1em;
+    padding: 1em; // problem peut être ici
     background: $midnight;
     font-weight: bold;
     cursor: pointer;
@@ -116,8 +116,8 @@ ul {
     }
     &::after {
       content: "\276F";
-      width: 1em;
-      height: 1em;
+      width: 1em; // problem peut être ici
+      height: 1em; // problem peut être ici
       text-align: center;
       transition: all .35s;
     }
@@ -151,6 +151,7 @@ input:checked {
     }
   }
   ~ .tab-content {
+    margin-top: 6px;
     max-height: 100%;
     padding: 1em;
   }
