@@ -114,7 +114,7 @@
         <input type="checkbox" id="chck1">
         <label class="tab-label" for="chck1">Le Wagon - Web Developpement</label>
         <div class="tab-content">
-        <br>
+        <br class="break">
         <img src="https://logovtor.com/wp-content/uploads/2020/10/le-wagon-logo-vector.png" alt="Logo du Wagon" width="100">
         <p><em>Mai 2023 - Juillet 2023</em></p>
         <p>Bootcamp intensif à temps plein de 9 semaines d'apprentissage au développement web, comprenant HTML, CSS, Bootstrap, JavaScript ES6, SQL, git, GitHub, Heroku et Ruby on Rails.</p>
@@ -129,7 +129,7 @@
         <input type="checkbox" id="chck5">
         <label class="tab-label" for="chck5">Licences et certifications</label>
         <div class="tab-content">
-        <br>
+        <br class="break">
         <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-rebrand-logo-square.png?auto=format%2Ccompress&dpr=1" alt="Coursera" width="60">
           <p><em>Janvier 2019 - Décembre 2020</em></p>
           <p>Spécialisation Investment Management - Université de Genève<p>
@@ -935,5 +935,16 @@ display: block;
   text-align: justify; /* Justifie le texte */
   line-height: 1.2;
 }
+
+.break {
+  display: block; /* Afficher le <br> */
+}
+
   }
+
+  @media (min-width: 768px) {
+  .break {
+    display: none; /* Masquer le <br> sur les grands écrans */
+  }
+}
 </style>
